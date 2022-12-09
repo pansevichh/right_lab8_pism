@@ -5,30 +5,19 @@ public class Main {
     public static void main(String[] args) {
 
         ArrayList someStrings = new ArrayList();
-        String menu = "1. Add element. \n" +
-                "2. Delete element from the end. \n" +
-                "3. Search for the repeating elements. \n" +
-                "4. Reverse all strings. \n" +
-                "5. Search for the substring. \n" +
-                "6. Display collection. \n" +
-                "8. Exit." ;
+        String menu = "1. Add element\n" +
+                "2. Delete element from the end\n" +
+                "3. Search for the repeating elements\n" +
+                "4. Reverse all strings\n" +
+                "5. Search for the substring\n" +
+                "6. Display collection\n" +
+                "8. Exit" ;
 
         int flag = 0;
 
         someStrings.add("Hello");
-        someStrings.add("HowRU");
-        someStrings.add("Fine");
-        someStrings.add("Thanks");
-        someStrings.add("Exams");
-        someStrings.add("Summer");
-        someStrings.add("Food");
-        someStrings.add("MoreFood");
-        someStrings.add("Hello");
-        someStrings.add("Summer");
-        someStrings.add("Autumn");
-        someStrings.add("Learning");
-        someStrings.add("Night");
-        someStrings.add("Chill");
+        someStrings.add("It's Dasha");
+        someStrings.add("Pansevich Dasha you know");
 
         while(flag==0) {
             System.out.println(menu);
