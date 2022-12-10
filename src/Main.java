@@ -18,6 +18,7 @@ public class Main {
         someStrings.add("Hello");
         someStrings.add("It's Dasha");
         someStrings.add("Pansevich Dasha you know");
+        someStrings.add("Pansevich Dasha you know");
 
         while(flag==0) {
             System.out.println(menu);
